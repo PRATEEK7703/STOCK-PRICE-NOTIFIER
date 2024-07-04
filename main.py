@@ -36,3 +36,5 @@ def main():
   seperatedtext=cleantext(element.text)
   if(seperatedtext<0.10):
     sendmail(str(cleantext))
+
+main()
